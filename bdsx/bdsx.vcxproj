@@ -102,7 +102,8 @@ echo #define BUILD_TIME "%25date%-%time2:.=%"&gt;"gen/buildtime.h"</Command>
     </Link>
     <PostBuildEvent />
     <PostBuildEvent>
-      <Command>call ksign "BDSX"  "$(TargetPath)"</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
     <PreBuildEvent>
       <Command>mkdir gen&gt;nul 2&gt;nul
